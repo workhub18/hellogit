@@ -1,6 +1,7 @@
  #include<iostream>
  #include<string>
  #include<vector>
+ #include "Student.h"
  using namespace std;
  
  void Enterpupil(vector<Student>&newpupil)
@@ -28,10 +29,4 @@
 		 cout<<"Id "<<newpupil.GetId();
 	 }
  }
- int main()
- {
-	 vector<student>pupil;
-	 Enterpupil(pupil);
-	 Printpupil(pupil);
-	 retrun 0;
- }
+ 
